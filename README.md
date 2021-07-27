@@ -6,5 +6,5 @@ Not all templates would work to every case, even with the same site. For example
 
 If you have some templates not found here, please create a PR. 
 
-I manage my templtes on http://stackedit.io, but now I'm moving to automate the entire process, having them in a git hub repo will help me with the entire process. 
+I manage my templates on http://stackedit.io, but now I'm moving to Github to automate the entire process.
 
