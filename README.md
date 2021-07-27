@@ -1,4 +1,4 @@
-# bugBountyTemplates
+# Bug Bounty Reports Templates
 
 List of templates I had use since I started doing BBH. 
 
