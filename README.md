@@ -1,6 +1,6 @@
 # Bug Bounty Reports Templates
 
-List of templates I had use since I started doing BBH. 
+List of templates I have used since I started doing BBH. 
 
 Not all templates would work to every case, even with the same site. For example, some programs in HackerOne have a diffent order and some have more fields. (Yes, I'm talking about you DOD). 
 
