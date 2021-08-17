@@ -1,4 +1,4 @@
-Reflected XSS [$DOMAIN]
+# Reflected XSS [$DOMAIN]
 
 Reflected cross-site scripting (XSS) arises when an application receives data in an HTTP request and includes that data within the immediate response in an unsafe way. An attacker can execute JavaScript arbitrary code on the victim's session.
 
