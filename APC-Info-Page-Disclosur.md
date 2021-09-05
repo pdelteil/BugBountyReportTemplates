@@ -6,7 +6,7 @@ The Alternative PHP Cache (APC) is a PHP extension that provides _opcode caching
 
 ## URLs
 
-- http://URL
+- $URL
 
 ## Impact
 
