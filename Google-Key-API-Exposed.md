@@ -10,7 +10,7 @@ Developers need to configure this security controls within their own decisions. 
 
 ## Steps To Reproduce
 
- 1. Go to this [URL]($URL)
+ 1. Go to this [$URL]($URL)
  2. Find in source code for the API Key $KEY 
  3. Use the API in the following ways (exploit):
 	 a. [Google Maps](https://maps.googleapis.com/maps/api/staticmap?center=45%2C10&zoom=7&size=400x400&key=$KEY)
