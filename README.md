@@ -18,5 +18,5 @@ List of templates
 | takeovers | 5|
 | wordpress | 3| 
 | xss| 1| 
-| Total | 49 | 
+| Total | 50 | 
 
