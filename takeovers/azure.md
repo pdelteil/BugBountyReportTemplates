@@ -11,7 +11,7 @@ $URL
 
 ## Steps to reproduce
 
- 1. Using dig, I was able to determine that the subdomain `mustestqa.cv.ford.com` was vulnerable to takeover. This was the output:
+ 1. Using dig, I was able to determine that the subdomain `$DOMAIN` was vulnerable to takeover. This was the output:
 ```
 $DIG
 ```
@@ -23,7 +23,7 @@ I created an account on the Azure Portal and deployed a web app where I added th
 $DIG2
 
 ```
-Basically I created waws-prod-dm1-161.cloudapp.net and 'linked' it to $DOMAIN.
+Basically I created $DOMAIN2 and 'linked' it to $DOMAIN.
  3. Lastly, check $URL for the POC php page. 
 
  
