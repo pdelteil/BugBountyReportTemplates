@@ -14,9 +14,9 @@ List of templates
 | Folder | # templates |
 |--|--|
 | /  | 20 |
-| cves | 21 |
+| cves | 22 |
 | takeovers | 5|
 | wordpress | 3| 
 | xss| 1| 
-| Total | 50 | 
+| Total | 51 | 
 
