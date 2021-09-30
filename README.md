@@ -18,5 +18,6 @@ List of templates
 | takeovers | 5|
 | wordpress | 3| 
 | xss| 1| 
-| Total | 51 | 
+| AEM| 1|
+| Total | 52 | 
 
