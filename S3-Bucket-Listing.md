@@ -2,7 +2,7 @@
 # S3 bucket listing /download
 
 ## Summary
-It's possible to get a listing and download every file in the S3 bucket `terrain.flymaster.net` 
+It's possible to get a listing and download every file in the S3 bucket `$DOMAIN` 
 
 ## Steps To Reproduce
 
