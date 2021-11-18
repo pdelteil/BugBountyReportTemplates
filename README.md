@@ -14,10 +14,10 @@ List of templates
 | Folder | # templates |
 |--|--|
 | /  | 21 |
-| cves | 25 |
+| cves | 26 |
 | takeovers | 7|
 | wordpress | 3| 
 | XSS| 1| 
 | AEM| 1|
-| Total | 58 | 
+| Total | 59 | 
 
