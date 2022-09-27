@@ -17,7 +17,7 @@ List of templates
 | cves | 29 |
 | takeovers | 8|
 | wordpress | 3| 
-| XSS| 1| 
+| XSS| 4| 
 | AEM| 1|
-| Total | 64 | 
+| Total | 67 | 
 
