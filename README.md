@@ -19,5 +19,6 @@ List of templates
 | wordpress | 4| 
 | XSS| 5| 
 | AEM| 1|
-| Total | 70 | 
+| solr| 1| 
+| Total | 71 | 
 
