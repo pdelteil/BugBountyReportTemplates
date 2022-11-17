@@ -1,5 +1,5 @@
 
-# Note: Domains pointing to xxx.azurewebsites.net.
+### Note: Domains pointing to xxx.azurewebsites.net.
 
 # Subdomain takeover [$DOMAIN]
 
