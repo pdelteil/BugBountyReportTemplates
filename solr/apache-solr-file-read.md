@@ -3,7 +3,7 @@
 
 ## Summary
 
-Apache Solr versions prior to and including 8.8.1 are vulnerable to local file inclusion. It's possible to fetch all files and folders that the user running Solr has privileges. 
+Apache Solr versions prior to and including 8.8.1 are vulnerable to local file inclusion (CVE-2021-27905). It's possible to fetch all files and folders that the user running Solr has privileges. 
 
 
 ## Steps To Reproduce
