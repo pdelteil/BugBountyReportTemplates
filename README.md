@@ -19,7 +19,7 @@ List of templates
 | wordpress | 4| 
 | XSS| 5| 
 | AEM| 1|
-| solr| 1| 
+| solr| 2| 
 | jenkins| 1 | 
-| Total | 72 | 
+| Total | 73 | 
 
