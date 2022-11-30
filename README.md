@@ -20,5 +20,6 @@ List of templates
 | XSS| 5| 
 | AEM| 1|
 | solr| 1| 
-| Total | 71 | 
+| jenkins| 1 | 
+| Total | 72 | 
 
