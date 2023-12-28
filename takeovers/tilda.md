@@ -14,11 +14,16 @@ It's possible to take over subdomains that point to a Tilda site. While adding a
 
 ## Impact
 
-The main impact is for the affected client but I also have consequences for Pantheon since didn't place validations to avoid this type of attack. 
+It's extremely vulnerable to attacks as a malicious user could create any web page with any content and host it on the vulnerable domain. This would allow them to post malicious content which would be mistaken for a valid site.
+
+They could perform several attacks like:
+
+    Cookie Stealing
+    Phishing campaigns.
+    Bypass Content-Security Policies and CORS.
 
 ## How to solve 
 
-Pantheon should require some kind of ownership verification while adding a subdomain. Add a TXT record in the DNS record of the main domain is one alternative. 
-
+Remove affected DNS records. 
 
 
