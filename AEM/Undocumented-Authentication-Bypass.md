@@ -50,5 +50,6 @@ Is possible to read the content of the packages but also remove them. This might
  
 ### Supporting Material/References
 https://threatpost.com/rce-bug-in-adobe-revealed/167382/
+
 https://labs.detectify.com/2021/06/28/aem-crx-bypass-0day-control-over-some-enterprise-aem-crx-package-manager/
 
