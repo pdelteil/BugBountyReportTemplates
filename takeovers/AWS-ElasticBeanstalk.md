@@ -28,5 +28,4 @@ They could perform several attacks like:
 
 ### Supporting Material/References:
 
- - https://0xpatrik.com/subdomain-takeover/
- - https://hackerone.com/reports/661751
+ - https://godiego.co/posts/STO-AWS/
