@@ -15,7 +15,7 @@ This was possible because the vulnerable zone/domain was pointing to DNSMadeEasy
 
 POC
 
-    Run dig txt poc.$DOMAIN
+    Run `dig txt poc.$DOMAIN`
 
 Check the following output:
 
