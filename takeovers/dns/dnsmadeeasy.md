@@ -13,7 +13,7 @@ This was possible because the vulnerable zone/domain was pointing to DNSMadeEasy
 
  In order to create the POC I added the subdomain `poc` to $DOMAIN with a TXT record.  
 
- Run `dig txt poc.$DOMAIN`
+ Run `dig txt poc.$DOMAIN +noall +answer`
 
 Check the following output:
 
