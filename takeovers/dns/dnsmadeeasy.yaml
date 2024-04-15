@@ -1,3 +1,7 @@
+## Title  
+
+DNS takeover on [$DOMAIN]
+
 ## Summary
 
 A DNS takeover occurs when an attacker can take control of any DNS server in the chain of DNS servers responsible for resolving a hostname.
