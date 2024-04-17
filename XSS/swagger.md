@@ -11,7 +11,7 @@ Affected versions: 3.14.0 < 3.38.0
  
 This popup will be shown:
 
-![enter image description here](https://xxx)
+$SS
 
 ## Impact
 
