@@ -3,13 +3,18 @@
 
 ## Summary
 
-The subdomain `$DOMAIN` was pointing to an ElasticBean instance ($CNAME), but that endpoint was not registered. 
+The subdomain `$DOMAIN` was pointing to an ElasticBean instance `$CNAME`, but that endpoint was not registered. 
+To perform the takeover an attacker just need to create an enviroment pointing to `$CNAME`. 
 
 ## Steps to reproduce
  
 Just go to $URL
 
-You'll see a default page. 
+You'll see a blank page with the following comment: 
+
+`  <!-- poc by pdelteil -->`
+
+Webarchived version: $URL
 
 ## Impact
 
@@ -23,7 +28,7 @@ They could perform several attacks like:
  
 ## Recommendations for fix
 
-* Remove the affected DNS record if not used 
+* Remove the affected DNS record if not used.
  
 
 ### Supporting Material/References:
