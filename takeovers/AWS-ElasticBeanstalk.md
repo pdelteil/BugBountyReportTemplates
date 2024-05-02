@@ -3,7 +3,7 @@
 
 ## Summary
 
-The subdomain signal-api.paytm.com was pointing to an ElasticBean instance ($CNAME), but that endpoint was not registered. 
+The subdomain `$DOMAIN` was pointing to an ElasticBean instance ($CNAME), but that endpoint was not registered. 
 
 ## Steps to reproduce
  
