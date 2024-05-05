@@ -4,7 +4,7 @@
 ## Summary
 
 The subdomain `$DOMAIN` was pointing to an ElasticBean instance `$CNAME`, but that endpoint was not registered. 
-To perform the takeover an attacker just need to create an enviroment pointing to `$CNAME`. 
+To perform the takeover an attacker just need to create an environment pointing to `$CNAME`. 
 
 ## Steps to reproduce
  
