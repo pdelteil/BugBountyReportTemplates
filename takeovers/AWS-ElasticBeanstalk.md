@@ -8,7 +8,7 @@ To perform the takeover an attacker just need to create an environment pointing 
 
 ## Steps to reproduce
  
-Just go to $URL
+Just go to this URL: $URL
 
 You'll see a blank page with the following comment: 
 
