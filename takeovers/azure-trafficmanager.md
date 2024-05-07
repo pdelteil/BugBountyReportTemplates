@@ -1,9 +1,10 @@
 
-# Subdomain takeover of $DOMAIN
+# Subdomain takeover of [$DOMAIN]
 
 ## Summary
 
-The dangling CNAME record of *$DOMAIN* was pointing to xxx.trafficmanager.net and xxx.trafficmanager.net pointed to *xxx.azurewebsites.net* which was not claimed by you. I registered a service with this name and therefore was able to takeover the subdomain.  As a POC, I created a simple php page. 
+The dangling CNAME record `$DOMAIN` was pointing to `$CNAME` the later pointed to `$DOMAIN2` which was not claimed. I registered a service with this name and therefore was able to takeover the subdomain. 
+As a POC, I created a simple php page. 
 
 ## Affected assets 
 
@@ -15,7 +16,7 @@ $URL
 ```
 $DIG
 ```
-In this case `xxx.trafficmanager.net` was taken, but `xxx.azurewebsites.net` was available.
+In this case `$CNAME` was taken, but `$DOMAIN2` was available.
 I created an account on the Azure Portal and deployed a web app where I added the custom domain: $DOMAIN (see screenshot)
  2. After the actions described, the dig command output was:
  
@@ -29,7 +30,7 @@ Basically I created $DOMAIN2 and 'linked' it to $DOMAIN.
  
 ## Recommendations for fix
 
- 1. Edit your xxx.trafficmanager.net settings 
+ 1. Edit your trafficmanager.net settings 
  2. Remove the affected DNS record
  
 
