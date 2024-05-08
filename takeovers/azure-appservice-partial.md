@@ -5,7 +5,7 @@
 
 ## Summary
 
-The subdomain `$DOMAIN` was pointing to an Azure App service domain ($DOMAIN2), but that endpoint was not registered. I created the instance and added the `$DOMAIN` but it was not possible to add a custom domain, due to domain verification implemented by Azure.
+The subdomain `$DOMAIN` was pointing to an Azure App service domain ($DOMAIN2), but that endpoint was not registered. I created the instance but it was not possible to add a custom domain, due to domain verification implemented by Azure.
 
 It's partial takeover since I can't host any content but I can set this default error page. 
 The owner wouldn't be able to host any content on the subdomain since I have it added on my account. It will show an error, so I have the subdomain hostage.
