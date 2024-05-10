@@ -19,12 +19,22 @@ Check the following output:
 
 $SS
 
+A more impactful POC is registering a mail service using the subdomain. 
+
+Test email sent to my gmail account. (directly to inbox)
+
+$SS
+
+MX tools indicating the mail server passed all verifications (meaning emails sent from the address will certainly reach the victim's inbox) 
+
+$SS
+
 ## Impact
 
 The impact is high as an attacker could create any subdomain with any content. This would allow them to post malicious content which would be mistaken for a valid site. 
 Because the attacker controls de DNS manager, TXT and MX records can be created, therefore allowing the use of $DOMAIN as email sender. 
 
-They could perform several attacks like:
+Attackes could perform several attacks:
  - Cookie Stealing
  - Phishing campaigns. 
  - Bypass Content-Security Policies and CORS.
@@ -33,7 +43,7 @@ They could perform several attacks like:
 ## Recommendations for fix
 
 * Disable the domain or update the authoritative nameservers to ones that are not susceptible to hijacking.
-* Delete the DNS zone from your DNS provider.
+* Delete the DNS zone from your DNS manager.
  
 
 ### Supporting Material/References:
