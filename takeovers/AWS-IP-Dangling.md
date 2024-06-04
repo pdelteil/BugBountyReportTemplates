@@ -3,7 +3,7 @@ Subdomain Takeover on [$DOMAIN]
 
 ## Summary
 
-The subdomain $DOMAIN pointed to an Elastic IPv4 address assigned to an AWS EC2 instance that was terminated. This IP address was released to the AWS Pool and can be taken over and assign the IP to new EC2 instance by a malicious actor.
+The subdomain `$DOMAIN` pointed to an Elastic IPv4 address assigned to an AWS EC2 instance that was terminated. This IP address (`$IP`) was released to the AWS Pool and I was able to take it over and assign it to new EC2 instance.
 
 
 ## Steps to reproduce
@@ -22,7 +22,7 @@ Archived URL: $URL2
 
 ## Impact
 
-It's extremely vulnerable to attacks as a malicious user could create any web page with any content and host it on the $DOMAIN domain. This would allow them to post malicious content which would be mistaken for a valid site. 
+It's vulnerable to attacks as a malicious user could create any web page with any content and host it on the $DOMAIN domain. This would allow them to post malicious content which would be mistaken for a valid site. 
 
 They could perform several attacks like:
  - Cookie Stealing
