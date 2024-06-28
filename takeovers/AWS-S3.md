@@ -1,12 +1,20 @@
+# Subdomain takeover [$DOMAIN]
+
 ## Summary
 
-The subdomain $DOMAIN was pointed using CNAME to Amazon S3, but no bucket with that name was registered. This meant that anyone could sign up for Amazon S3, claim the bucket as their own and then serve content on $DOMAIN
+The subdomain `$DOMAIN` was pointed using CNAME to Amazon S3, but no bucket with that name was created. 
 
 ## Steps to reproduce
  
-Check the following urls:
-$URLS
+Check the following [URL]($URL)
 
+You will see the following comment in the code:
+
+```
+<!-- takeover by pdelteil -->
+```
+
+Archived URL: $URL2
 
 ## Impact
 
