@@ -37,7 +37,7 @@ $SS
 The impact is high as an attacker could create any subdomain with any content. This would allow them to post malicious content which would be mistaken for a valid site. 
 Because the attacker controls de DNS manager, TXT and MX records can be created, therefore allowing the use of $DOMAIN as email sender. 
 
-Attackes could perform several attacks:
+Attackers could perform several attacks:
  - Cookie Stealing
  - Phishing campaigns. 
  - Bypass Content-Security Policies and CORS.
