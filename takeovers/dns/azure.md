@@ -8,6 +8,7 @@ A DNS takeover occurs when an attacker can take control of any DNS server in the
 
 This was possible because the vulnerable zone/domain was pointing to Azure DNS service (using name servers ` ns*-*.azure-dns.*`) but the zone was not created.
 
+A bonus would be advice, since performing this take over has a cost in Azure cloud. 
 
 ## Steps to reproduce
 
