@@ -3,7 +3,7 @@ Subdomain Takeover on [$DOMAIN]
 
 ## Summary
 
-The subdomain `$DOMAIN` pointed to an Elastic IPv4 address assigned to an AWS EC2 instance that was terminated. This IP address (`$IP`) was released to the AWS Pool and I was able to take it over and assign it to new EC2 instance.
+The subdomain `$DOMAIN` pointed to an Elastic IPv4 address assigned to an AWS EC2 instance that was terminated. This IP address (`$IP`) was released to the AWS Pool and I was able to take it over and assign it to new a EC2 instance.
 
 
 ## Steps to reproduce
@@ -15,14 +15,13 @@ $URLS
 POC  DoS using Cookie bomb
 
 a. Click on the button "Cookie bomb"
-b. You will see is not longer possible to access any subdomain of $DOMAIN
-
+b. You will see it's no longer possible to access any subdomain of $DOMAIN
 
 Archived URL: $URL2
 
 ## Impact
 
-It's vulnerable to attacks as a malicious user could create any web page with any content and host it on the $DOMAIN domain. This would allow them to post malicious content which would be mistaken for a valid site. 
+It's vulnerable to attacks as a malicious user could create any web page with any content and host it on the `$DOMAIN` domain. This would allow them to post malicious content which would be mistaken for a valid site. 
 
 They could perform several attacks like:
  - Cookie Stealing
