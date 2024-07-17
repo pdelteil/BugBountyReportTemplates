@@ -2,7 +2,7 @@ Note: This is not a regular subdomain takeover but a NS/DNS takeover.
 
 ## Title  
 
-DNS takeover on [$DOMAIN]
+DNS takeover in [$DOMAIN]
 
 ## Summary
 
