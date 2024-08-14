@@ -1,5 +1,5 @@
 
-
+Note: Domains pointing to xxx.cloudapp.net
 
 # Subdomain takeover [$DOMAIN]
 
