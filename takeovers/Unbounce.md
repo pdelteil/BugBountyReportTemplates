@@ -14,7 +14,7 @@ Vulnerable subdomain: $DOMAIN
 
 ## Impact
 
-It's extremely vulnerable to attacks as a malicious user could create any web page with any content and host it on the vulnerable domain. This would allow them to post malicious content which would be mistaken for a valid site. 
+It's vulnerable to attacks as a malicious user could create any web page with any content and host it on the vulnerable domain. This would allow them to post malicious content which would be mistaken for a valid site. 
 
 They could perform several attacks like:
  - Cookie Stealing
