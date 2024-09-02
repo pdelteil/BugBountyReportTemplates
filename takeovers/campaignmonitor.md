@@ -1,5 +1,7 @@
 ## Title
 
+Subdomain takeover in [$domain]
+
 ## Summary
 
 The domain `$domain` was poiting to `CNAME` cname.createsend.com, but it was not actively used in the service Campaign Monitor. Because this service does not re-verify custom domains I was able to take it over.
@@ -14,8 +16,9 @@ Domain ownership: https://who.is/whois/$domain
 
 ## Impact
 
-The company won't be able to use this domain anymore with Campaign monitor service.
+It's vulnerable to attacks as a malicious user could create any web page with any content and host it on the vulnerable domain. This would allow them to post malicious content which would be mistaken for a valid site.
 
-Create content in the domain as these:
-
-$URL
+They could perform several attacks like:
+ - Cookie Stealing
+ - Phishing campaigns. 
+ - Bypass Content-Security Policies and CORS.
