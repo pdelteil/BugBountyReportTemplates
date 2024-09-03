@@ -5,13 +5,11 @@ Note: Domains pointing to xxx.cloudapp.azure.com
 
 ## Summary
 
-The subdomain `$DOMAIN` was pointing to an Azure Virtual Machine instance ($DOMAIN2), but that endpoint was not registered. 
+The subdomain `$DOMAIN` was configured to point to an Azure Virtual Machine instance ($DOMAIN2). However, the associated Azure endpoint was no longer active or properly registered. 
 
 ## Steps to reproduce
  
-Just go to 
-
-$URL
+Just go to: $URL
 
 You will see a blank page, but checking the source code you will see proof of the take over. 
 
@@ -21,6 +19,7 @@ You will see a blank page, but checking the source code you will see proof of th
  </html>
 ```
 
+Archived version: 
 
 
 ## Impact
